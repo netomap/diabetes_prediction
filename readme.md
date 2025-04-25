@@ -12,6 +12,11 @@
 
 - Explicação:  
 
+Os Valores SHAP (Explicações Aditivas de Shapley), representam um método para interpretar as decisões tomadas por modelos de Inteligência Artificial (IA). Os Valores SHAP atribuem um valor a cada característica de um modelo preditivo, ajudando a entender seu comportamento. Um valor SHAP positivo indica que a característica impacta positivamente a previsão, enquanto um valor negativo indica um impacto negativo. Essa metodologia explica graficamente como os modelos de IA chegam aos seus resultados, simplificando a compreensão das tomadas de decisão em Machine Learning.
+
+Imagine que você tem um time de especialistas (as características do seu modelo de IA) trabalhando juntos para tomar uma decisão (a previsão do modelo). Os Valores SHAP funcionam como um sistema justo para dividir o "crédito" ou a "culpa" pela decisão final entre cada especialista. Para cada previsão individual, o SHAP calcula a contribuição de cada característica, mostrando se ela empurrou a previsão para um valor mais alto (contribuição positiva) ou mais baixo (contribuição negativa) em comparação com uma previsão média. É como se disséssemos: "Essa característica específica aumentou a probabilidade de um cliente comprar em 5%, enquanto aquela outra diminuiu em 2%".
+
+A grande vantagem do SHAP é que ele oferece uma explicação consistente e aditiva. "Aditiva" significa que a soma das contribuições de todas as características para uma previsão específica será igual à diferença entre a previsão dessa instância e a previsão média do modelo. Essa propriedade garante uma interpretação clara e completa de como cada fator influencia o resultado. Ao fornecer essa visão detalhada da influência de cada característica em cada previsão, o SHAP se torna uma ferramenta poderosa para entender o comportamento do modelo, depurar problemas e construir confiança em sistemas de IA.
 
 ---
 
